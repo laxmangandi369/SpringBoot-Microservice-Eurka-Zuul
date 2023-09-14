@@ -26,6 +26,10 @@ public class EmployeeController {
 	@RequestMapping("/profiles")
 	public EmployeeBean[] all() {
 		List<EmployeeBean> profiles = profileRepository.getAllProfiles();
+		System.out.println("hello world");
+		System.out.println("hello world");
+		System.out.println("hello world");
+		System.out.println("hello world");
 		return profiles.toArray(new EmployeeBean[profiles.size()]);
 	}
 	
