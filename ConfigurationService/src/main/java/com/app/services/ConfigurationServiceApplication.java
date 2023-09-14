@@ -10,5 +10,11 @@ public class ConfigurationServiceApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ConfigurationServiceApplication.class, args);
+		System.out.println("testing github....");
+		System.out.println("testing github....");
+		System.out.println("testing github....");
+		System.out.println("testing github....");
+		System.out.println("testing github....");
+		System.out.println("testing github....");
 	}
 }
